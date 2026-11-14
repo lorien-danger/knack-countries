@@ -1,0 +1,65 @@
+{
+ "name": "Countries",
+ "item": "country",
+ "practices": [
+  {
+   "name": "Where is it?",
+   "show": [
+    "flag",
+    "name"
+   ],
+   "ask": "location"
+  },
+  {
+   "name": "Flags",
+   "show": [
+    "flag"
+   ],
+   "ask": "name"
+  }
+ ],
+ "columns": [
+  {
+   "name": "name",
+   "type": "plain"
+  },
+  {
+   "name": "flag",
+   "type": "plain",
+   "media": "image",
+   "icon": true
+  },
+  {
+   "name": "location",
+   "type": "area"
+  },
+  {
+   "name": "region",
+   "type": "tree"
+  },
+  {
+   "name": "population",
+   "type": "number",
+   "scale": "log"
+  },
+  {
+   "name": "size (km²)",
+   "type": "number",
+   "scale": "log"
+  },
+  {
+   "name": "flag look",
+   "type": "embedding",
+   "file": "flag-look.npy",
+   "of": "flag",
+   "model": "Xenova/clip-vit-base-patch32"
+  },
+  {
+   "name": "name sound",
+   "type": "embedding",
+   "file": "name-sound.npy",
+   "of": "name",
+   "model": "bookbot/onnx-byt5-small-wikipron-eng-latn-au-broad"
+  }
+ ]
+}
