@@ -1,0 +1,7 @@
+{
+  "name": "knack-countries-build",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "tsx build.ts", "publish-dataset": "tsx publish.ts" },
+  "dependencies": { "d3-geo": "3.1.1", "flag-icons": "7.6.0", "sharp": "0.34.5", "tsx": "4.20.6" }
+}

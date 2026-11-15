@@ -2,7 +2,7 @@
 
 198 countries (sovereign states plus Kosovo, Palestine, Taiwan and Western Sahara): name, flag, where it is
 (its shape), region, population and size, plus two embeddings: what the flag looks like (CLIP) and how the name
-sounds (a ByT5 pronunciation model). A dataset for [Umwelt](https://github.com/lorien-danger): add it by this
+sounds (a ByT5 pronunciation model). A dataset for [Knack](https://github.com/lorien-danger/knack): add it by this
 repo's link.
 
 Sources: shapes and population estimates (mostly 2019) from [Natural Earth](https://www.naturalearthdata.com/)
@@ -11,3 +11,13 @@ Sources: shapes and population estimates (mostly 2019) from [Natural Earth](http
 
 Because it includes ODbL data, this database is made available under the
 [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/).
+
+## Building it
+
+`build/` makes the dataset. `build.ts` writes the full version to `local/` (not in this repo: it holds the flags as
+PNG files, so it works offline), the Knack app's `npm run describe` adds the two embeddings to it, and `publish.ts`
+turns it into the files at the top of this repo, with the flags as links.
+
+    cd build && npm install
+    npx tsx build.ts
+    npx tsx publish.ts
