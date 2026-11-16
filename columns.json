@@ -52,7 +52,7 @@
    "type": "embedding",
    "file": "flag-look.npy",
    "of": "flag",
-   "model": "Xenova/clip-vit-base-patch32"
+   "model": "facebook/dinov2-base"
   },
   {
    "name": "name sound",
