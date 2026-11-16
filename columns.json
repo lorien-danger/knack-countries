@@ -60,6 +60,20 @@
    "file": "name-sound.npy",
    "of": "name",
    "model": "bookbot/onnx-byt5-small-wikipron-eng-latn-au-broad"
+  },
+  {
+   "name": "flag dinov2",
+   "type": "embedding",
+   "file": "flag-dinov2.npy",
+   "of": "flag",
+   "model": "facebook/dinov2-base"
+  },
+  {
+   "name": "flag ijepa",
+   "type": "embedding",
+   "file": "flag-ijepa.npy",
+   "of": "flag",
+   "model": "facebook/ijepa_vith14_1k"
   }
  ]
 }
