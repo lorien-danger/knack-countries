@@ -1,0 +1,8 @@
+# name	how to say it: /IPA/ for the whole name, or words to read with IPA after any of them: word[/IPA/]
+# The IPA must be in the sounds Google lists for en-AU (docs.cloud.google.com/text-to-speech/docs/phonemes): ɹ not r,
+# ɐː not ɑː, əʊ not oʊ, eə not ɛə, ʤ ʧ. With any other symbol the voice ignores the line and reads the name its own way.
+Grenada	/ɡɹəˈneɪdə/
+Laos	/laʊs/
+Nauru	/nɐːˈuːɹuː/
+Niger	/niːˈʒeə/
+Saint Kitts and Nevis	Saint Kitts and Nevis[/ˈniːvɪs/]

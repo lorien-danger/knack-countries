@@ -29,6 +29,12 @@
    }
   },
   {
+   "name": "spoken name",
+   "type": "plain",
+   "media": "audio",
+   "same": "name"
+  },
+  {
    "name": "flag",
    "type": "plain",
    "media": "image",
