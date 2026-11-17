@@ -21,7 +21,8 @@ const rows = (await readFile(join(SRC, 'rows.jsonl'), 'utf8')).split('\n').filte
 	return { ...r, flag: `https://cdn.jsdelivr.net/npm/flag-icons@7.6.0/flags/4x3/${code}.svg` };
 });
 await mkdir(OUT, { recursive: true });
-for (const c of meta.columns) if (c.file) await copyFile(join(SRC, c.file), join(OUT, c.file));
+// the files a column's structure is kept in ("near": which flags look alike, which names sound alike)
+for (const c of meta.columns) for (const x of [c, ...(Array.isArray(c.near) ? c.near : c.near ? [c.near] : [])]) if (x.file) await copyFile(join(SRC, x.file), join(OUT, x.file));
 await writeFile(join(OUT, 'columns.json'), JSON.stringify(meta, null, 1) + '\n');
 await writeFile(join(OUT, 'rows.jsonl'), rows.map((r) => JSON.stringify(r)).join('\n') + '\n');
 console.log(`${OUT}: ${rows.length} rows`);

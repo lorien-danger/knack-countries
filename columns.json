@@ -21,13 +21,23 @@
  "columns": [
   {
    "name": "name",
-   "type": "plain"
+   "type": "plain",
+   "near": {
+    "file": "name-sound.npy",
+    "by": "sound",
+    "model": "bookbot/onnx-byt5-small-wikipron-eng-latn-au-broad"
+   }
   },
   {
    "name": "flag",
    "type": "plain",
    "media": "image",
-   "icon": true
+   "icon": true,
+   "near": {
+    "file": "flag-look.npy",
+    "by": "look",
+    "model": "facebook/dinov2-base"
+   }
   },
   {
    "name": "location",
@@ -46,20 +56,6 @@
    "name": "size (km²)",
    "type": "number",
    "scale": "log"
-  },
-  {
-   "name": "flag look",
-   "type": "embedding",
-   "file": "flag-look.npy",
-   "of": "flag",
-   "model": "facebook/dinov2-base"
-  },
-  {
-   "name": "name sound",
-   "type": "embedding",
-   "file": "name-sound.npy",
-   "of": "name",
-   "model": "bookbot/onnx-byt5-small-wikipron-eng-latn-au-broad"
   }
  ]
 }
