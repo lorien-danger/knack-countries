@@ -18,7 +18,7 @@ Because it includes ODbL data, this database is made available under the
 | column | what it is |
 | --- | --- |
 | name, flag, location, region, population, size (km²) | the facts (see above) |
-| spoken name | the name said aloud by four Australian voices (`media/say/<id>.<a-d>.mp3`); each time it is played, one of them. It is the name in another form (`"same": "name"`) |
+| spoken name | the English name said in the country's accent, or the nearest there is, by four voices (`media/say/<id>.<speaker>.mp3`); each time it is played, one of them. It is the name in another form (`"same": "name"`) |
 | flag look | embedding of the flag, DINOv2 (`facebook/dinov2-base`), 64 numbers: `flag-look.npy` |
 | name sound | embedding of the name, ByT5 pronunciation model, 64 numbers: `name-sound.npy` |
 
@@ -27,12 +27,20 @@ DINOv2 vectors (768 numbers) are in `build/flag-look-full.npy`.
 
 ## The spoken names
 
-`build/say.ts` makes them with Google Cloud's en-AU Neural2 voices (two women, two men). The voices read most
-names correctly by themselves. Each recording was checked by machine, not by ear: a phoneme recogniser and a
-speech-to-text model each wrote down what it heard, and that was read against the English pronunciations on
-Wikipedia. Five names the voices got wrong are corrected in `build/said.tsv`: Grenada (they said it like Granada),
-Laos (without the s), Nauru (two syllables), Niger, and the Nevis of Saint Kitts and Nevis. Where English has more
-than one accepted way (Qatar, Sudan, Nicaragua) the voice's own is kept, and the four voices do not always agree.
+The English name of each country, read in the accent of the country. `build/say.ts` makes them with Google Cloud's
+Chirp 3 HD voices: the voices of the country's own language where Google has them (a German voice says "Germany"),
+and otherwise the nearest there are, which `build/voices.tsv` lists for all 198. Many are only near: the French
+voices read the names of French-speaking Africa, one Arabic voice set reads every Arab country, the Swahili voices
+read most of Africa south of the Sahara that is not French- or Portuguese-speaking, and Portugal is read by
+Brazilian voices. Each name has four recordings, two women and two men, and the speakers change from one country to
+the next.
+
+Voices that are English (Australian for the Pacific, British, American, Indian) are given each name's sounds from
+`build/said.tsv`, since unaided they read some names wrongly (Grenada like Granada, Kiribati as it is spelled).
+Voices of other languages read the English spelling as their language would, which is the accent wanted, and
+sometimes the country's own word for itself (a French voice says France the French way).
+
+The recordings were checked by machine, not by ear: a phoneme recogniser wrote down what it heard in each.
 
     cd build && npx tsx say.ts --env <a .env with GC_API_KEY>     # add --hear to print what the recogniser hears
 

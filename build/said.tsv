@@ -1,8 +1,195 @@
-# name	how to say it: /IPA/ for the whole name, or words to read with IPA after any of them: word[/IPA/]
-# The IPA must be in the sounds Google lists for en-AU (docs.cloud.google.com/text-to-speech/docs/phonemes): ɹ not r,
-# ɐː not ɑː, əʊ not oʊ, eə not ɛə, ʤ ʧ. With any other symbol the voice ignores the line and reads the name its own way.
+# name	its sounds in IPA, for the voices that are English: /IPA/ for a one-word name, or the words with IPA after any of them: word[/IPA/]
+# The IPA is in the sounds Google lists for en-AU (docs.cloud.google.com/text-to-speech/docs/phonemes): ɹ not r, ɐː not ɑː,
+# əʊ not oʊ, eə not ɛə, ʤ ʧ. Three are a choice between accepted ways: Qatar (KUT-ah), Niger (nee-ZHAIR), Nauru (NOW-roo, as most Australians say it).
+Afghanistan	/æfˈɡænəstæn/
+Albania	/ælˈbeɪniːə/
+Algeria	/ælˈʤiəɹiːə/
+Andorra	/ænˈdɔːɹə/
+Angola	/æŋˈɡəʊlə/
+Antigua and Barbuda	Antigua[/ænˈtiːɡə/] and Barbuda[/bɐːˈbjuːdə/]
+Argentina	/ˌɐːʤənˈtiːnə/
+Armenia	/ɐːˈmiːniːə/
+Australia	/əˈstɹeɪljə/
+Austria	/ˈɒstɹiːə/
+Azerbaijan	/ˌæzəbaɪˈʤɐːn/
+Bahamas	/bəˈhɐːməz/
+Bahrain	/bɐːˈɹeɪn/
+Bangladesh	/ˌbæŋɡləˈdɛʃ/
+Barbados	/bɐːˈbeɪdɒs/
+Belarus	/ˌbɛləˈɹuːs/
+Belgium	/ˈbɛlʤəm/
+Belize	/bəˈliːz/
+Benin	/bɛˈniːn/
+Bhutan	/buːˈtɐːn/
+Bolivia	/bəˈlɪviːə/
+Bosnia and Herzegovina	Bosnia[/ˈbɒzniːə/] and Herzegovina[/ˌhɜːtsəɡəˈviːnə/]
+Botswana	/bɒtˈswɐːnə/
+Brazil	/bɹəˈzɪl/
+Brunei	/bɹuːˈnaɪ/
+Bulgaria	/bɐlˈɡeəɹiːə/
+Burkina Faso	Burkina[/bɜːˈkiːnə/] Faso[/ˈfæsəʊ/]
+Burundi	/bəˈɹʊndiː/
+Cabo Verde	Cabo[/ˈkɐːbəʊ/] Verde[/ˈvɜːdeɪ/]
+Cambodia	/kæmˈbəʊdiːə/
+Cameroon	/ˌkæməˈɹuːn/
+Canada	/ˈkænədə/
+Chad	/ʧæd/
+Chile	/ˈʧɪliː/
+China	/ˈʧaɪnə/
+Colombia	/kəˈlɐmbiːə/
+Comoros	/ˈkɒməɹəʊz/
+Costa Rica	Costa[/ˈkɒstə/] Rica[/ˈɹiːkə/]
+Croatia	/kɹəʊˈeɪʃə/
+Cuba	/ˈkjuːbə/
+Cyprus	/ˈsaɪpɹəs/
+Czechia	/ˈʧɛkiːə/
+Democratic Republic of the Congo	Democratic Republic of the Congo[/ˈkɒŋɡəʊ/]
+Denmark	/ˈdɛnmɐːk/
+Djibouti	/ʤɪˈbuːtiː/
+Dominica	/ˌdɒmɪˈniːkə/
+Dominican Republic	Dominican[/dəˈmɪnɪkən/] Republic
+East Timor	East Timor[/ˈtiːmɔː/]
+Ecuador	/ˈɛkwədɔː/
+Egypt	/ˈiːʤɪpt/
+El Salvador	El Salvador[/ˈsælvədɔː/]
+Equatorial Guinea	Equatorial[/ˌɛkwəˈtɔːɹiːəl/] Guinea[/ˈɡɪniː/]
+Eritrea	/ˌɛɹɪˈtɹeɪə/
+Estonia	/ɛsˈtəʊniːə/
+Eswatini	/ˌɛswɐːˈtiːniː/
+Ethiopia	/ˌiːθiːˈəʊpiːə/
+Fiji	/ˈfiːʤiː/
+Finland	/ˈfɪnlənd/
+France	/fɹæns/
+Gabon	/ɡəˈbɒn/
+Gambia	/ˈɡæmbiːə/
+Georgia	/ˈʤɔːʤə/
+Germany	/ˈʤɜːməniː/
+Ghana	/ˈɡɐːnə/
+Greece	/ɡɹiːs/
 Grenada	/ɡɹəˈneɪdə/
+Guatemala	/ˌɡwɐːtəˈmɐːlə/
+Guinea	/ˈɡɪniː/
+Guinea-Bissau	Guinea[/ˈɡɪniː/]-Bissau[/bɪˈsaʊ/]
+Guyana	/ɡaɪˈænə/
+Haiti	/ˈheɪtiː/
+Honduras	/hɒnˈdjʊəɹəs/
+Hungary	/ˈhɐŋɡəɹiː/
+Iceland	/ˈaɪslənd/
+India	/ˈɪndiːə/
+Indonesia	/ˌɪndəˈniːʒə/
+Iran	/ɪˈɹɐːn/
+Iraq	/ɪˈɹɐːk/
+Ireland	/ˈaɪələnd/
+Israel	/ˈɪzɹeɪl/
+Italy	/ˈɪtəliː/
+Jamaica	/ʤəˈmeɪkə/
+Japan	/ʤəˈpæn/
+Jordan	/ˈʤɔːdən/
+Kazakhstan	/ˌkæzəkˈstɐːn/
+Kenya	/ˈkɛnjə/
+Kiribati	/ˈkɪɹɪbæs/
+Kosovo	/ˈkɒsəvəʊ/
+Kuwait	/kuːˈweɪt/
+Kyrgyzstan	/ˌkɜːɡɪˈstɐːn/
 Laos	/laʊs/
-Nauru	/nɐːˈuːɹuː/
+Latvia	/ˈlætviːə/
+Lebanon	/ˈlɛbənɒn/
+Lesotho	/ləˈsuːtuː/
+Liberia	/laɪˈbiəɹiːə/
+Libya	/ˈlɪbiːə/
+Liechtenstein	/ˈlɪktənstaɪn/
+Lithuania	/ˌlɪθjuːˈeɪniːə/
+Luxembourg	/ˈlɐksəmbɜːɡ/
+Madagascar	/ˌmædəˈɡæskə/
+Malawi	/məˈlɐːwiː/
+Malaysia	/məˈleɪʒə/
+Maldives	/ˈmɔːldiːvz/
+Mali	/ˈmɐːliː/
+Malta	/ˈmɔːltə/
+Mauritania	/ˌmɒɹɪˈteɪniːə/
+Mauritius	/məˈɹɪʃəs/
+Mexico	/ˈmɛksɪkəʊ/
+Micronesia	/ˌmaɪkɹəˈniːʒə/
+Moldova	/mɒlˈdəʊvə/
+Monaco	/ˈmɒnəkəʊ/
+Mongolia	/mɒŋˈɡəʊliːə/
+Montenegro	/ˌmɒntəˈniːɡɹəʊ/
+Morocco	/məˈɹɒkəʊ/
+Mozambique	/ˌməʊzæmˈbiːk/
+Myanmar	/ˈmjænmɐː/
+Namibia	/nəˈmɪbiːə/
+Nauru	/ˈnaʊɹuː/
+Nepal	/nəˈpɔːl/
+Netherlands	/ˈnɛðələndz/
+New Zealand	New Zealand[/ˈziːlənd/]
+Nicaragua	/ˌnɪkəˈɹæɡjuːə/
 Niger	/niːˈʒeə/
+Nigeria	/naɪˈʤiəɹiːə/
+North Korea	North Korea[/kəˈɹiːə/]
+North Macedonia	North Macedonia[/ˌmæsəˈdəʊniːə/]
+Norway	/ˈnɔːweɪ/
+Oman	/əʊˈmɐːn/
+Pakistan	/ˌpɐːkɪˈstɐːn/
+Palau	/pəˈlaʊ/
+Palestine	/ˈpæləstaɪn/
+Panama	/ˈpænəmɐː/
+Papua New Guinea	Papua[/ˈpæpuːə/] New Guinea[/ˈɡɪniː/]
+Paraguay	/ˈpæɹəɡwaɪ/
+Peru	/pəˈɹuː/
+Philippines	/ˈfɪləpiːnz/
+Poland	/ˈpəʊlənd/
+Portugal	/ˈpɔːʧəɡəl/
+Qatar	/ˈkɐtɐː/
+Republic of the Congo	Republic of the Congo[/ˈkɒŋɡəʊ/]
+Romania	/ɹəʊˈmeɪniːə/
+Russia	/ˈɹɐʃə/
+Rwanda	/ɹuːˈændə/
 Saint Kitts and Nevis	Saint Kitts and Nevis[/ˈniːvɪs/]
+Saint Lucia	Saint Lucia[/ˈluːʃə/]
+Saint Vincent and the Grenadines	Saint Vincent and the Grenadines[/ˌɡɹɛnəˈdiːnz/]
+Samoa	/səˈməʊ.ə/
+San Marino	San Marino[/məˈɹiːnəʊ/]
+São Tomé and Príncipe	São[/saʊ/] Tomé[/təˈmeɪ/] and Príncipe[/ˈpɹɪnsɪpeɪ/]
+Saudi Arabia	Saudi[/ˈsaʊdiː/] Arabia[/əˈɹeɪbiːə/]
+Senegal	/ˌsɛnɪˈɡɔːl/
+Serbia	/ˈsɜːbiːə/
+Seychelles	/seɪˈʃɛlz/
+Sierra Leone	Sierra[/siːˈeəɹə/] Leone[/liːˈəʊn/]
+Singapore	/ˈsɪŋəpɔː/
+Slovakia	/sləˈvækiːə/
+Slovenia	/sləˈviːniːə/
+Solomon Islands	Solomon[/ˈsɒləmən/] Islands
+Somalia	/səˈmɐːliːə/
+South Korea	South Korea[/kəˈɹiːə/]
+South Sudan	South Sudan[/suːˈdɐːn/]
+Spain	/speɪn/
+Sri Lanka	Sri[/sɹiː/] Lanka[/ˈlæŋkə/]
+Sudan	/suːˈdɐːn/
+Suriname	/ˈsʊəɹɪnæm/
+Sweden	/ˈswiːdən/
+Switzerland	/ˈswɪtsələnd/
+Syria	/ˈsɪɹiːə/
+Taiwan	/taɪˈwɐːn/
+Tajikistan	/tɐːˈʤiːkɪstɐːn/
+Tanzania	/ˌtænzəˈniːə/
+Thailand	/ˈtaɪlænd/
+Togo	/ˈtəʊɡəʊ/
+Tonga	/ˈtɒŋə/
+Trinidad and Tobago	Trinidad[/ˈtɹɪnɪdæd/] and Tobago[/təˈbeɪɡəʊ/]
+Tunisia	/tjuːˈnɪziːə/
+Turkey	/ˈtɜːkiː/
+Turkmenistan	/tɜːkˈmɛnɪstɐːn/
+Tuvalu	/tuːˈvɐːluː/
+Uganda	/juːˈɡændə/
+Ukraine	/juːˈkɹeɪn/
+United Arab Emirates	United Arab Emirates[/ˈɛməɹəts/]
+Uruguay	/ˈjʊəɹəɡwaɪ/
+Uzbekistan	/ʊzˈbɛkɪstɐːn/
+Vanuatu	/ˌvænuːˈɐːtuː/
+Vatican	/ˈvætɪkən/
+Venezuela	/ˌvɛnəˈzweɪlə/
+Vietnam	/ˌviːɛtˈnɐːm/
+Western Sahara	Western Sahara[/səˈhɐːɹə/]
+Yemen	/ˈjɛmən/
+Zambia	/ˈzæmbiːə/
+Zimbabwe	/zɪmˈbɐːbweɪ/
